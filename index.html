@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satheesh Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/907a4acdf0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Welcome to My Portfolio</p>
+                <h1>Hi, I'm <br><span style="color: rgb(228, 11, 11);">Annam Satheesh</span></h1>
+                <h4>Aspiring Full-Stack Developer</h4>
+            </div>
+            <div id="img">
+                <img src="Images/img.png" class="img" height="700px" width="600px">
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.png" alt="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a skilled Full Stack Developer with experience in creating user-friendly websites and strong back-end and front-end systems. 
+                        I work with tools like Html, CSS, JavaScript, React, and databases such as MySQL and Oracle. I enjoy solving problems, building efficient solutions, and working with teams to complete great projects.
+                         I am always eager to learn new technologies and improve my skills to deliver the best results.</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Java</span><br>Back-end Application</li>
+                                <li><span>HTML,CSS & JavaScript </span><br>Front-end Application</li>
+                                <li><span>React</span><br>Single Page Front-end Application</li>
+                                <li><span>MySQL & Oracle</span><br>Back-end Application</li>
+                                <li><span>Springboot & Hibernate</span><br>Frameworks for Projects</li>
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Kodnest</span><br>Java Full-Stack - Intern<br>10/06/2024 - 25/01/2025<br>Offline</li>
+                                <li><span>Besant Technologies</span><br>Java Full-Stack - Intern<br>02/02/2024- 05/08/2024<br>Online</li>
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Bachelors of Technology (B.Tech)</span><br>Rajeev Gandhi Memorial College Of Engineering and Technology<br>Mechanical Engineering - 8.9CGPA<br>2021-204</li>
+                                <li><span>Intermediate(10+2)</span><br>Seetharamaiah Junior College<br>MPC<br>2018-2020</li>
+                                <li><span>SSC(10)</span><br>B.S.R Govt Municipal High School<br>Science<br>2017-2018</li>
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------Skills--------------- -->
+<div id="skills">
+    <div class="container">
+        <div class="sub-title">My Skills</div>
+        <div class="skills-list">
+        <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Design</h2><br>
+            <p> I create clean, modern, and user-friendly website designs that look great on any device. 
+                Skilled in HTML, CSS, JavaScript, and React.
+                 I focus on making websites visually appealing and easy to use. 
+                With a creative touch and attention to detail, 
+                I turn ideas into designs that leave a lasting impression.</p>
+                <a href="https://en.wikipedia.org/wiki/Web_design" target="_blank">Learn more</a>
+            </div>
+           
+            <div>
+                <i class="fa-sharp-duotone fa-solid fa-laptop"></i>
+                <h2>Back-end</h2><br>
+                <p>I have strong backend development skills with a focus on Java, 
+                    using it to build efficient, secure, and scalable applications. 
+                    My experience includes working with frameworks like Spring Boot and Hibernate handling databases for smooth data management. 
+                    Additionally, I have a basic understanding of Python, 
+                    which helps me solve problems and automate tasks. 
+                    With a solid grasp of backend concepts, I ensure reliable and high-performing server-side solutions.</p>
+                    <a href="https://en.wikipedia.org/wiki/Frontend_and_backend" target="_blank">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-sharp-duotone fa-solid fa-database"></i>
+                    <h2>Database</h2><br>
+                    <p>I have experience working with MySQL and Oracle databases to design, manage, and optimize data storage solutions. 
+                        Skilled in writing efficient SQL queries, creating tables, and managing relationships,
+                         I ensure smooth and secure data handling.
+                          My expertise includes database design, 
+                          performance tuning, and implementing best practices for reliable and organized data management systems.
+                    </p>
+                        <a href="https://en.wikipedia.org/wiki/Database" target="_blank">Learn more</a>
+                    </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- -----------------Certificates--------------- -->
+
+  <section id="certificates" class="certificates-section">
+    <div class="sub-title">Certificates</div>
+    <div class="certificates-container">
+        <div class="certificate">
+            <img src="Images/GL_basics.png" alt="Certificate 5">
+            <div class="certificate-hover">
+                <p>Certificate Basic Java</p>
+            </div>
+        </div>
+
+        <div class="certificate">
+            <img src="Images/GL_OOPs.png" alt="Certificate 4">
+            <div class="certificate-hover">
+                <p>Certificate in OOPs</p>
+            </div>
+        </div>
+
+        <div class="certificate">
+            <img src="Images/GL_Java.png" alt="Certificate 1">
+            <div class="certificate-hover">
+                <p>Certificate in Java</p>
+            </div>
+        </div>
+        <div class="certificate">
+            <img src="Images/GL_HTML.png" alt="Certificate 2">
+            <div class="certificate-hover">
+                <p>Certificate in HTML</p>
+            </div>
+        </div>
+        <div class="certificate">
+            <img src="Images/GL_CSS.png" alt="Certificate 3">
+            <div class="certificate-hover">
+                <p>Certificate in CSS</p>
+            </div>
+        </div>
+       
+    </div>
+</section>
+
+
+
+<!-- -------------Project--------------- -->
+
+<section id="projects">
+    <div class="pro">
+    <div class="image">
+        <img src="Images/pro-img.webp" alt="img" height="200px" width="250px">
+    </div>
+    <div>
+    <h2>Projects</h2>
+    <p>Here are some of my key projects. You can check them out on my GitHub:</p><br>   
+    <a href="https://github.com/ANNAMSATHEESH?tab=repositories" target="_blank" rel="noopener noreferrer">
+      Visit My GitHub
+    </a>
+    </div>
+</div>
+  </section><br>
+ 
+  <!-- ----------Contact----------- -->
+<div id="contact">
+    <div class="container">
+       <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>annamsatishkumar6282@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>+91 9515876282</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/satishkumar.annam.7?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/satheesh_a1/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/annam-satheesh-a5b346243/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="Images/IT.resume-p.pdf" download class="btn btn2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="text" name="email" placeholder="Email" required>
+                <textarea name="message" rows="6" placeholder="message"></textarea>
+                <button type="submit" class="btn btn2" id="sub">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+       </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright Satheesh. Made with <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+    <script src="portfolio.js"></script>
+
+   
+</body>
+</html>
